@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Nice Cat Pics generator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="header">Cat Picture Generator</h1>
+    <h2>What could possibly go wrong? nothing!</h2>
+    <div class="cat-selection-container">
+      <div class="cat-breed-container">
+        <h4>Cat Breed:</h4>
+        
+        <select name="cat-breeds" id="cat-breeds" onChange="catBreed(this)">          
+          <option value="" selected="selected">Cat Breed</option>
+        </select>
+      </div>
+      <input type="text" placeholder="How many cats 🐈?" class="amount-of-cats-input" onkeydown="catNum(this)">
+
+    </div>
+    <!--<div class="cat-container">-->
+      <ul class="cats">
+        <!--the cats go here after being generated-->
+      </ul>
+    <!---</div>-->
+    <footer>Cats Generated using⠀<a href="https://thecatapi.com">thecatapi.com</a>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

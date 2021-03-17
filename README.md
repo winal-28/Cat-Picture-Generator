@@ -1,4 +1,4 @@
-# Cat-Image-Generator
+# Cat-Picture-Generator
 
 ### a webpage that loads up pictures of cats provided by the cat api
 
